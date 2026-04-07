@@ -8,7 +8,7 @@ function criarCard(funcionario){
 
     const foto = document.createElement("img")
     foto.src = `./img/${funcionario.imagem}`
-    foto.all = `Fote de ${funcionario.nome}`
+    foto.all = `Foto de ${funcionario.nome}`
 
     const nome = document.createElement("h3")
     nome.textContent = funcionario.nome
